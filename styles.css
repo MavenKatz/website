@@ -1,0 +1,103 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ead9bf; /* Replace with your image URL */
+    background-size: 1600,900; 
+    /* Ensures the image covers the entire background */
+    background-position: top; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.header-image {
+    width: 1520px; /* Makes the image responsive */
+    height: 274px; /* Maintains the aspect ratio */
+}
+
+.container {
+    width: 80%; /* Set width as needed */
+    height: 100%; /* Full height of the body */
+    margin: 0 auto; /* Center the container */
+}
+
+.content {
+    color: white; /* Adjust text color for contrast */
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    z-index: 1; /* Ensures text appears above the background */
+}
+.avatar-container {
+    display: flex;
+    justify-content: center; /* Centers the avatar */
+    margin: -90px 0 20px 0; /* Adjust margin to pull the avatar up if needed */
+    position: relative; /* Allows positioning if needed */
+}
+
+.ring {
+    width: 150px; /* Size of the outer ring */
+    height: 150px; /* Size of the outer ring */
+    border: 10px solid gold; /* Color and thickness of the ring */
+    border-radius: 50%; /* Makes the ring circular */
+    display: flex;
+    justify-content: center; /* Center the avatar within the ring */
+    align-items: center; /* Center the avatar vertically */
+}
+
+.avatar-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensure the avatar is a square */
+    border-radius: 50%; /* Makes the avatar circular */
+    border: 5px solid white; /* Optional: add a border */
+    position: relative; /* Allow for layering if needed */
+    margin: 870px;
+}
+.avatar-name {
+    margin-top: 10px; /* Space between avatar and text */
+    color: #382f17; /* Adjust text color for contrast */
+    font-size: 36px; /* Adjust font size as needed */
+    text-align: center; /* Center the text */
+}
+.avatar-line {
+    margin-top: 10px; /* Space between avatar and text */
+    color: #382f17; /* Adjust text color for contrast */
+    font-size: 36px; /* Adjust font size as needed */
+    text-align: center; /* Center the text */
+}
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    align-items: flex-start; /* Centers the icons vertically */
+    flex-wrap: wrap; /* Allows wrapping of items to the next line if needed */
+    gap: 150px; /* Space between the icon items */
+    margin: -500px 0; /* Margin around the icon container */
+}
+.icon-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center-aligns both icon and text */
+    text-align: center; /* Center the text under the icons */
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height (equal to width for a circle) */
+    border-radius: 50%; /* Make the element round */
+    background-color: #4d3528; /* Background color */
+    color: #baa874; /* Icon color */
+    font-size: 50px; /* Icon size */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    text-decoration: none; /* Removes the underline */
+    
+}
+
+.icon:hover {
+    background-color: #f39c12; /* Change color on hover (optional) */
+}
+.icon-text {
+    margin-top: px; /* Space between icon and text */
+    font-size: 16px; /* Size of the text */
+    color: inherit; /* Keep the text color consistent with the icon */
+}
